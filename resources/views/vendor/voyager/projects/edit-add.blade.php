@@ -12,7 +12,7 @@
 @section('page_title', __('voyager::generic.'.($edit ? 'edit' : 'add')).' '.$dataType->getTranslatedAttribute('display_name_singular'))
 
 @section('page_header')
-    <h1 class="page-title">
+    <h1 class="page-title">our View
         <i class="{{ $dataType->icon }}"></i>
         {{ __('voyager::generic.'.($edit ? 'edit' : 'add')).' '.$dataType->getTranslatedAttribute('display_name_singular') }}
     </h1>
@@ -89,6 +89,17 @@
                                     @endif
                                 </div>
                             @endforeach
+                                <label for="excelFile">Upload project excel file:</label>
+                                <input id="excelFile" name="excelFile" type="file" accept=".csv,.xlsx,.xls" />
+
+                                <label for="thermalImages">Upload thermal images .zip file:</label>
+                                <input id="thermalImages" name="thermalImages" type="file" accept=".zip" />
+
+                                <label for="digitalImages">Upload digital images .zip file:</label>
+                                <input id="digitalImages" name="digitalImages" type="file" accept=".zip" />
+
+                                <label for="kmlFile">Upload .kml file:</label>
+                                <input id="kmlFile" name="kmlFile" type="file" accept=".kml" />
 
                         </div><!-- panel-body -->
 

@@ -4,7 +4,13 @@
 namespace App\Repositories;
 
 
-class Repository
+abstract class Repository
 {
+    protected $model = false;
+
+    public function get($select = '*', $where = FALSE){
+        $builder = $this->model->select($select);
+        return $builder;
+    }
 
 }

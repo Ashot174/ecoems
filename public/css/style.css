@@ -1,0 +1,427 @@
+.header {
+    height: 100px;
+    background: #75b74a;
+    width: 100%;
+}
+.logo {
+    margin-top: 35px;
+    width: 120px;
+    height: 25px;
+}
+.col-md-6 {
+    width: 50%;
+}
+.solr {
+    font-size: 43px;
+    padding-left: 19px;
+    padding-top: 10px;
+    color: #ffffff;
+    text-transform: lowercase;
+}
+
+.nvbutton {
+    border: none;
+    background: none;
+    margin-top: 35px;
+    float: right;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 26px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.clientnme {
+    text-align: right;
+    padding-top: 32px;
+    padding-right: 0;
+    color: #ffffff;
+    font-family: 'century gothic';
+}
+
+.clientnme h5 {
+    font-size: 16px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #3b691d;
+    /*overflow-x: hidden;*/
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+sidenav h5 {
+    padding: 8px 8px 8px 32px;
+    display: block;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffffc7;
+    transition: 0.3s;
+    font-family: 'century gothic';
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.sidenav h5 {
+    padding: 8px 8px 8px 32px;
+    display: block;
+    padding-top: 20px;
+}
+#mySidenav #closebtn {
+    display: none;
+}
+
+.h5, h5 {
+    font-size: 14px;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.foot {
+    background: #404040;
+    width: 100%;
+    position: relative;
+    margin-bottom: -300px;
+}
+/*.container {*/
+/*    padding-right: 15px;*/
+/*    padding-left: 15px;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
+
+/*.row {*/
+/*    margin-right: -15px;*/
+/*    margin-left: -15px;*/
+/*}*/
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 0px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.foot ul li:first-child {
+    padding-top: 50px;
+}
+.foot ul li {
+    display: block;
+    font-size: 14px;
+    padding-top: 25px;
+}
+.foot ul li:first-child {
+    padding-top: 50px;
+}
+.col-xs-12 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+
+.btn-group-vertical>.btn-group:after, .btn-group-vertical>.btn-group:before, .btn-toolbar:after, .btn-toolbar:before, .clearfix:after, .clearfix:before, .container-fluid:after, .container-fluid:before, .container:after, .container:before, .dl-horizontal dd:after, .dl-horizontal dd:before, .form-horizontal .form-group:after, .form-horizontal .form-group:before, .modal-footer:after, .modal-footer:before, .modal-header:after, .modal-header:before, .nav:after, .nav:before, .navbar-collapse:after, .navbar-collapse:before, .navbar-header:after, .navbar-header:before, .navbar:after, .navbar:before, .pager:after, .pager:before, .panel-body:after, .panel-body:before, .row:after, .row:before {
+    display: table;
+    content: " ";
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: disc;
+}
+
+.btn-group-vertical>.btn-group:after, .btn-toolbar:after, .clearfix:after, .container-fluid:after, .container:after, .dl-horizontal dd:after, .form-horizontal .form-group:after, .modal-footer:after, .modal-header:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .pager:after, .panel-body:after, .row:after {
+    clear: both;
+}
+img {
+    /*vertical-align: middle;*/
+    border-style: none;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.separator {
+    border-right: 1px solid #dfdfe0;
+}
+.icon-btn-save {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.input-group {
+    margin-bottom:10px;
+}
+.btn-save-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding: 6px 12px;
+    background: rgba(0,0,0,0.15);
+    border-radius: 3px 0 0 3px;
+}
+#content_password{
+    margin-bottom: 290px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+div#home{
+    min-height: 610px;
+    padding-top: 30px;
+}
+
+div#wrapper {
+    padding-top: 30px;
+    margin-bottom: 10%;
+}
+
+div#confirm{
+    margin-bottom: 20%;
+    padding-top: 30px;
+}
+
+div#pass_email{
+    margin-bottom: 20%;
+    padding-top: 30px;
+}
+
+div#pass_reset{
+    margin-bottom: 20%;
+    padding-top: 30px;
+}
+
+.profilepagecontainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #efefef;
+}
+
+.profilepage {
+    width: 100%;
+
+}
+
+.sitepadding {
+    padding: 15px;
+    border: 2px solid #cccccc;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.profile_sitename {
+    padding-top: 65px;
+    padding-bottom: 35px;
+}
+
+#wraper {
+    min-height: calc(100vh - 40px);
+    background: #f8f8f8;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div.siteimg{
+    margin-bottom: 10px;
+}
+
+.diagram{
+    max-width: 900px;
+    padding: 15px;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.diagram select{
+    width: 160px;
+    margin: 0 auto;
+}
+.color-box{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
+.hrStyle{
+    border:2px solid dimgray;
+    margin-top: -3px;
+}
+
+.navbar{
+    font-size: 30px;
+}
+.profilePageContent{
+    background: white;
+    min-height: 400px;
+}
+.pagination li.active span.page-link{
+    background: #38c172;
+    border: 1px solid #38c172;
+}
+.pagination .page-link{
+    color: seagreen;
+}
+
+
+#database_table_sticky_header{
+    position: relative;
+    font-size: 15px;
+    border-collapse: separate;
+    border-spacing: 12px 0px;
+
+}
+#database_table_sticky_header th {
+    background: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+    line-height:35px
+
+}
+
+#database_table_sticky_header td {
+    border-bottom:1.5pt solid lightgray;
+}
+
+
+/*@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');*/
+
+body *{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.loginform{
+    font-size: 20px;
+}
+.redilink{
+    font-size: 15px;
+}
+
+.animatedbutton{
+    background: #75b74a;
+    color: white;
+}
+
+.btn-success{
+    background-color: #75b74a;
+}
+
+.graph{
+    font-size: 20px;
+}
+
+.arrw{
+    height: 32px;
+    width: 30px;
+}
+.project_name{
+    font-size: 40px;
+}
+
+.project_text{
+    font-size: 20px;
+}
+
+.img-thumbnail{
+    width:60%;
+}
+
+.project_portfolio{
+    font-size: 43px;
+}
+
+.fa{
+    width: 20px;
+}
+.error-404-text{
+    font-size: 25px;
+}
+#map {
+    height:700px;
+    width:100%;
+}
+
+#loader {
+    display:    block;
+    position:   absolute;
+    z-index:    5;
+    top:        0;
+    left:       40%;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+    url('../img/map.gif')
+    no-repeat;
+}
+.dashboard{
+    font-size: 20px;
+}
+
+.graph_color_box{
+    margin-bottom: 40px;
+}
+
+.fault_type_div{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
